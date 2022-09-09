@@ -1,5 +1,4 @@
 #Untangled logic into smaller functions for testing purposes:
-
 def pin_length(pin):
     if len(str(pin)) != 4:
         raise ValueError("Please enter a 4 digit pin.")
@@ -20,7 +19,6 @@ def check_pin_is_number(pin):
     return True
 
 #Functions used by the program:
-
 def pin_validated(pin):
     if len(str(pin)) != 4:
         raise ValueError("Please enter a 4 digit pin.")
